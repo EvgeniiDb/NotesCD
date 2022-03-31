@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		E6E66C5C27F4CD16002C185C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E66C5B27F4CD16002C185C /* AppDelegate.swift */; };
 		E6E66C5E27F4CD16002C185C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E66C5D27F4CD16002C185C /* SceneDelegate.swift */; };
-		E6E66C6027F4CD16002C185C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E66C5F27F4CD16002C185C /* ViewController.swift */; };
 		E6E66C6327F4CD16002C185C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E66C6127F4CD16002C185C /* Main.storyboard */; };
 		E6E66C6627F4CD16002C185C /* NotesCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6E66C6427F4CD16002C185C /* NotesCD.xcdatamodeld */; };
 		E6E66C6827F4CD18002C185C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E66C6727F4CD18002C185C /* Assets.xcassets */; };
 		E6E66C6B27F4CD18002C185C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E66C6927F4CD18002C185C /* LaunchScreen.storyboard */; };
+		E6E66C7327F4CE27002C185C /* NoteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E66C7227F4CE27002C185C /* NoteListViewController.swift */; };
+		E6E66C7527F4CF04002C185C /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E66C7427F4CF04002C185C /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E6E66C5827F4CD16002C185C /* NotesCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E66C5B27F4CD16002C185C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6E66C5D27F4CD16002C185C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E6E66C5F27F4CD16002C185C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E6E66C6227F4CD16002C185C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6E66C6527F4CD16002C185C /* NotesCD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NotesCD.xcdatamodel; sourceTree = "<group>"; };
 		E6E66C6727F4CD18002C185C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6E66C6A27F4CD18002C185C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6E66C6C27F4CD18002C185C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6E66C7227F4CE27002C185C /* NoteListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListViewController.swift; sourceTree = "<group>"; };
+		E6E66C7427F4CF04002C185C /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,8 @@
 			children = (
 				E6E66C5B27F4CD16002C185C /* AppDelegate.swift */,
 				E6E66C5D27F4CD16002C185C /* SceneDelegate.swift */,
-				E6E66C5F27F4CD16002C185C /* ViewController.swift */,
+				E6E66C7227F4CE27002C185C /* NoteListViewController.swift */,
+				E6E66C7427F4CF04002C185C /* StorageManager.swift */,
 				E6E66C6127F4CD16002C185C /* Main.storyboard */,
 				E6E66C6727F4CD18002C185C /* Assets.xcassets */,
 				E6E66C6927F4CD18002C185C /* LaunchScreen.storyboard */,
@@ -142,8 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6E66C6627F4CD16002C185C /* NotesCD.xcdatamodeld in Sources */,
-				E6E66C6027F4CD16002C185C /* ViewController.swift in Sources */,
 				E6E66C5C27F4CD16002C185C /* AppDelegate.swift in Sources */,
+				E6E66C7527F4CF04002C185C /* StorageManager.swift in Sources */,
+				E6E66C7327F4CE27002C185C /* NoteListViewController.swift in Sources */,
 				E6E66C5E27F4CD16002C185C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
